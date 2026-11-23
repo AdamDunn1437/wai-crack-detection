@@ -1,0 +1,7 @@
+# Shared dependencies. Add what you need in your PR, with a version.
+numpy
+pandas
+opencv-python
+pillow
+matplotlib
+ultralytics

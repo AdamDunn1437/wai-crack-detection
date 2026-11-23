@@ -1,0 +1,39 @@
+# Data stays on Google Drive, not in git
+data/
+raw/
+tiles/
+labels/
+*.jpg
+*.jpeg
+*.JPG
+*.png
+*.heic
+*.HEIC
+*.tif
+*.tiff
+*.zip
+
+# Model weights and training output
+*.pt
+*.pth
+*.onnx
+*.ckpt
+runs/
+weights/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
+*credentials*.json
